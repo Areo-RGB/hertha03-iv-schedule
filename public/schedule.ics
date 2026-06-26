@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-WR-CALNAME:FC Hertha 03 IV Spielplan
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:clQdJ-u_JupcH7TN1B-9A
+SUMMARY:FC Internationale Berlin V vs FC Hertha 03 IV
+DTSTAMP:20260626T054707Z
+DTSTART:20260308T083000Z
+DTEND:20260308T100000Z
+DESCRIPTION:FC Hertha 03 IV – ✈️ Away vs FC Internationale Berlin V\nCompeti
+	tion: Kreisklasse C\nDetails: https://www.fussball.de/spiel/fc-internation
+	ale-berlin-v-fc-hertha-03-iv/-/spiel/02VPIDPM0G000000VS5489BUVVEJAKID
+URL:https://www.fussball.de/spiel/fc-internationale-berlin-v-fc-hertha-03-i
+	v/-/spiel/02VPIDPM0G000000VS5489BUVVEJAKID
+LOCATION:Kunstrasenplatz\, Tempelhofer Weg KR1\, Ella-Barowsky-Straße 62\, 
+	10829 Berlin
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+BEGIN:VEVENT
+UID:tJkBkmxtzWdVHqKsiQg7C
+SUMMARY:FC Hertha 03 IV vs BSV GW Neukölln IV
+DTSTAMP:20260626T054707Z
+DTSTART:20260315T093000Z
+DTEND:20260315T110000Z
+DESCRIPTION:FC Hertha 03 IV – 🏠 Home vs BSV GW Neukölln IV\nCompetition: Kr
+	eisklasse C\nDetails: https://www.fussball.de/spiel/fc-hertha-03-iv-bsv-gw
+	-neukoelln-iv/-/spiel/02VPIDPLSO000000VS5489BUVVEJAKID
+URL:https://www.fussball.de/spiel/fc-hertha-03-iv-bsv-gw-neukoelln-iv/-/spi
+	el/02VPIDPLSO000000VS5489BUVVEJAKID
+LOCATION:Kunstrasenplatz\, Ernst-Reuter-Sportf. KR1\, Onkel-Tom-Str. 40\, 1
+	4169 Berlin
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+BEGIN:VEVENT
+UID:mTdshv4k4uk_AfMpQeco3
+SUMMARY:BFC Dynamo V (Kiezkicker I) vs FC Hertha 03 IV
+DTSTAMP:20260626T054707Z
+DTSTART:20260321T090000Z
+DTEND:20260321T103000Z
+DESCRIPTION:FC Hertha 03 IV – ✈️ Away vs BFC Dynamo V (Kiezkicker I)\nCompet
+	ition: Kreisklasse C\nDetails: https://www.fussball.de/spiel/bfc-dynamo-v-
+	kiezkicker-i-fc-hertha-03-iv/-/spiel/02VPIDPLCS000000VS5489BUVVEJAKID
+URL:https://www.fussball.de/spiel/bfc-dynamo-v-kiezkicker-i-fc-hertha-03-iv
+	/-/spiel/02VPIDPLCS000000VS5489BUVVEJAKID
+LOCATION:Kunstrasenplatz\, Sportforum Kunstrasen KR1\, Weißenseer Weg 51-55
+	\, 13053 Berlin
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+BEGIN:VEVENT
+UID:I4-28pdJLA1MZjn1j-8G_
+SUMMARY:FC Hertha 03 IV vs FV Wannsee IV
+DTSTAMP:20260626T054707Z
+DTSTART:20260419T134500Z
+DTEND:20260419T151500Z
+DESCRIPTION:FC Hertha 03 IV – 🏠 Home vs FV Wannsee IV\nCompetition: Kreiskl
+	asse C\nDetails: https://www.fussball.de/spiel/fc-hertha-03-iv-fv-wannsee-
+	iv/-/spiel/02VPIDPL8K000000VS5489BUVVEJAKID
+URL:https://www.fussball.de/spiel/fc-hertha-03-iv-fv-wannsee-iv/-/spiel/02V
+	PIDPL8K000000VS5489BUVVEJAKID
+LOCATION:Kunstrasenplatz\, Ernst-Reuter-Sportf. KR6\, Onkel-Tom-Str. 40\, 1
+	4169 Berlin
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+BEGIN:VEVENT
+UID:Yb_WiP27Ee8T2iWHT8tgW
+SUMMARY:FC Hertha 03 IV vs BSC Kickers 1900 IV
+DTSTAMP:20260626T054707Z
+DTSTART:20260502T103000Z
+DTEND:20260502T120000Z
+DESCRIPTION:FC Hertha 03 IV – 🏠 Home vs BSC Kickers 1900 IV\nCompetition: K
+	reisklasse C\nDetails: https://www.fussball.de/spiel/fc-hertha-03-iv-bsc-k
+	ickers-1900-iv/-/spiel/02VPIDPKLS000000VS5489BUVVEJAKID
+URL:https://www.fussball.de/spiel/fc-hertha-03-iv-bsc-kickers-1900-iv/-/spi
+	el/02VPIDPKLS000000VS5489BUVVEJAKID
+LOCATION:Kunstrasenplatz\, Ernst-Reuter-Sportf. KR1\, Onkel-Tom-Str. 40\, 1
+	4169 Berlin
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+BEGIN:VEVENT
+UID:J6sB38rrXSgzqTLdJE6dL
+SUMMARY:SC Staaken V vs FC Hertha 03 IV
+DTSTAMP:20260626T054707Z
+DTSTART:20260505T163000Z
+DTEND:20260505T180000Z
+DESCRIPTION:FC Hertha 03 IV – ✈️ Away vs SC Staaken V\nCompetition: Kreiskla
+	sse C\nDetails: https://www.fussball.de/spiel/sc-staaken-v-fc-hertha-03-iv
+	/-/spiel/02VPIDPKBK000000VS5489BUVVEJAKID
+URL:https://www.fussball.de/spiel/sc-staaken-v-fc-hertha-03-iv/-/spiel/02VP
+	IDPKBK000000VS5489BUVVEJAKID
+LOCATION:Kunstrasenplatz\, Grüngürtel KR2\, Askanierring 149\, 13585 Berlin
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+BEGIN:VEVENT
+UID:I-XJ4x-D0ywf6u_Ooba8f
+SUMMARY:Lichtenrader BC 25 V vs FC Hertha 03 IV
+DTSTAMP:20260626T054707Z
+DTSTART:20260530T113000Z
+DTEND:20260530T130000Z
+DESCRIPTION:FC Hertha 03 IV – ✈️ Away vs Lichtenrader BC 25 V\nCompetition: 
+	Kreisklasse C\nDetails: https://www.fussball.de/spiel/lichtenrader-bc-25-v
+	-fc-hertha-03-iv/-/spiel/02VPIDPJMC000000VS5489BUVVEJAKID
+URL:https://www.fussball.de/spiel/lichtenrader-bc-25-v-fc-hertha-03-iv/-/sp
+	iel/02VPIDPJMC000000VS5489BUVVEJAKID
+LOCATION:Kunstrasenplatz\, Halker Zeile KR3 (KF)\, Halker Zeile 151\, 12305
+	 Berlin
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+BEGIN:VEVENT
+UID:kjbYLDxe9CNlWmP-sv67U
+SUMMARY:FC Hertha 03 IV vs TSV Rudow IV
+DTSTAMP:20260626T054707Z
+DTSTART:20260610T151500Z
+DTEND:20260610T164500Z
+DESCRIPTION:FC Hertha 03 IV – 🏠 Home vs TSV Rudow IV\nCompetition: Kreiskla
+	sse C\nDetails: https://www.fussball.de/spiel/fc-hertha-03-iv-tsv-rudow-iv
+	/-/spiel/02VPIDPK4S000000VS5489BUVVEJAKID
+URL:https://www.fussball.de/spiel/fc-hertha-03-iv-tsv-rudow-iv/-/spiel/02VP
+	IDPK4S000000VS5489BUVVEJAKID
+LOCATION:Kunstrasenplatz\, Ernst-Reuter-Sportf. KR1\, Onkel-Tom-Str. 40\, 1
+	4169 Berlin
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+BEGIN:VEVENT
+UID:T3O2sCrMo9LJjvfH_Q5Vm
+SUMMARY:Viktoria Berlin IX vs FC Hertha 03 IV
+DTSTAMP:20260626T054707Z
+DTSTART:20260621T100000Z
+DTEND:20260621T113000Z
+DESCRIPTION:FC Hertha 03 IV – ✈️ Away vs Viktoria Berlin IX\nCompetition: Kr
+	eisklasse C\nDetails: https://www.fussball.de/spiel/viktoria-berlin-ix-fc-
+	hertha-03-iv/-/spiel/02VPIDPJSK000000VS5489BUVVEJAKID
+URL:https://www.fussball.de/spiel/viktoria-berlin-ix-fc-hertha-03-iv/-/spie
+	l/02VPIDPJSK000000VS5489BUVVEJAKID
+LOCATION:Kunstrasenplatz\, Stadion Lichterfelde KR1\, Ostpreußendamm 3-17\,
+	 12207 Berlin
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,54 @@
+name: Scrape & Update Schedule
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run scraper
+        run: npm run scrape
+
+      - name: Validate generated JSON
+        run: |
+          node -e "const fs=require('fs'); const s=JSON.parse(fs.readFileSync('public/schedule.json','utf8')); if(!s.games?.length) throw new Error('No games exported'); const missing=s.games.filter(g=>!g.location); if(missing.length) throw new Error('Games missing location: '+missing.map(g=>g.match_id).join(',')); console.log('Validated '+s.games.length+' games with locations.');"
+
+      - name: Check if schedule changed
+        id: diff
+        run: |
+          git diff --quiet public/schedule.ics public/schedule.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated schedule
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/schedule.ics public/schedule.json
+          git commit -m "chore: update schedule $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: No changes detected
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "Schedule unchanged — nothing to commit."
