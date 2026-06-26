@@ -1,6 +1,6 @@
 name: Scrape & Update Schedule
 
-on:
+"on":
   schedule:
     # Runs every day at 06:00 UTC
     - cron: '0 6 * * *'
