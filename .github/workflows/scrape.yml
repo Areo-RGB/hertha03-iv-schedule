@@ -38,14 +38,14 @@ jobs:
       - name: Check if schedule changed
         id: diff
         run: |
-          git diff --quiet public/schedule.ics public/schedule.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet schedule.ics schedule.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push updated schedule
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/schedule.ics public/schedule.json
+          git add schedule.ics schedule.json
           git commit -m "chore: update schedule $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
 
