@@ -6,23 +6,29 @@ Automatically scrapes the game schedule for **FC Hertha 03 IV** from [fussball.d
 
 1. GitHub Actions runs the scraper daily at **06:00 UTC**
 2. It fetches past and upcoming games from fussball.de
-3. Generates `public/schedule.ics`
-4. Commits and pushes the file if anything changed
-5. Your calendar app picks up the update automatically via the raw file URL
+3. Generates `schedule.ics` and `schedule.json` in the repo root
+4. Commits and pushes the files if anything changed
+5. The files are served via GitHub Pages (and also available via the raw URL)
 
 ---
 
 ## Subscribe in Google Calendar
 
-Once the repo is public, grab the raw URL of the ICS file:
+Use the GitHub Pages URL for the ICS file:
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/public/schedule.ics
+https://<username>.github.io/<repo>/schedule.ics
+```
+
+For this repo:
+
+```
+https://areo-rgb.github.io/hertha03-iv-schedule/schedule.ics
 ```
 
 Then in Google Calendar:
 1. Click **+** next to "Other calendars" → **From URL**
-2. Paste the raw URL above
+2. Paste the URL above
 3. Click **Add calendar**
 
 Google Calendar refreshes subscribed calendars roughly every **24 hours**.
@@ -31,10 +37,16 @@ Google Calendar refreshes subscribed calendars roughly every **24 hours**.
 
 ## JSON API
 
-The schedule is also exported as `public/schedule.json` — useful for building a website, widget, or any other integration:
+The schedule is also exported as `schedule.json` — useful for building a website, widget, or any other integration:
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/public/schedule.json
+https://areo-rgb.github.io/hertha03-iv-schedule/schedule.json
+```
+
+A `raw.githubusercontent.com` URL is also available if you prefer, but the Pages URL is recommended so the cache headers don't get in the way:
+
+```
+https://raw.githubusercontent.com/Areo-RGB/hertha03-iv-schedule/master/schedule.json
 ```
 
 Example response shape:
@@ -81,7 +93,7 @@ npm install
 # Run locally to test
 npm run scrape
 
-# Output: public/schedule.ics
+# Output: schedule.ics (repo root)
 ```
 
 No environment variables or secrets needed — the scraper hits public endpoints on fussball.de.
@@ -115,10 +127,10 @@ To find a team ID, open the team page on fussball.de and copy the `team-id` from
 ├── .github/
 │   └── workflows/
 │       └── scrape.yml      # Daily GitHub Actions cron job
-├── public/
-│   └── schedule.ics        # Generated calendar file (auto-updated)
 ├── src/
 │   └── scraper.js          # Main scraper + ICS generator
+├── schedule.ics            # Generated calendar file (auto-updated, served via Pages)
+├── schedule.json           # Generated JSON (auto-updated, served via Pages)
 ├── package.json
 └── README.md
 ```
