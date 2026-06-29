@@ -33,7 +33,7 @@ jobs:
 
       - name: Validate generated JSON
         run: |
-          node -e "const fs=require('fs'); const s=JSON.parse(fs.readFileSync('public/schedule.json','utf8')); if(!s.games?.length) throw new Error('No games exported'); const missing=s.games.filter(g=>!g.location); if(missing.length) throw new Error('Games missing location: '+missing.map(g=>g.match_id).join(',')); console.log('Validated '+s.games.length+' games with locations.');"
+          node -e "const fs=require('fs'); const s=JSON.parse(fs.readFileSync('schedule.json','utf8')); if(!s.games?.length) throw new Error('No games exported'); const missing=s.games.filter(g=>!g.location); if(missing.length) throw new Error('Games missing location: '+missing.map(g=>g.match_id).join(',')); console.log('Validated '+s.games.length+' games with locations.');"
 
       - name: Check if schedule changed
         id: diff
