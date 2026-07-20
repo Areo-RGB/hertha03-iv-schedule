@@ -1,6 +1,7 @@
 # FC Hertha 03 IV – Game Schedule Scraper
 
-Automatically scrapes the game schedule for **FC Hertha 03 IV** from [fussball.de](https://www.fussball.de) and exports it as an `.ics` file that Google Calendar (or any calendar app) can subscribe to.
+Automatically scrapes the game schedule for **FC Hertha 03 IV** from [fussball.de](https://www.fussball.de) and exports
+it as an `.ics` file that Google Calendar (or any calendar app) can subscribe to.
 
 ## How it works
 
@@ -27,6 +28,7 @@ https://areo-rgb.github.io/hertha03-iv-schedule/schedule.ics
 ```
 
 Then in Google Calendar:
+
 1. Click **+** next to "Other calendars" → **From URL**
 2. Paste the URL above
 3. Click **Add calendar**
@@ -43,7 +45,8 @@ The schedule is also exported as `schedule.json` — useful for building a websi
 https://areo-rgb.github.io/hertha03-iv-schedule/schedule.json
 ```
 
-A `raw.githubusercontent.com` URL is also available if you prefer, but the Pages URL is recommended so the cache headers don't get in the way:
+A `raw.githubusercontent.com` URL is also available if you prefer, but the Pages URL is recommended so the cache headers
+don't get in the way:
 
 ```
 https://raw.githubusercontent.com/Areo-RGB/hertha03-iv-schedule/master/schedule.json
@@ -102,7 +105,8 @@ No environment variables or secrets needed — the scraper hits public endpoints
 
 ## Manual trigger
 
-Go to **Actions → Scrape & Update Schedule → Run workflow** to trigger a scrape immediately without waiting for the daily cron.
+Go to **Actions → Scrape & Update Schedule → Run workflow** to trigger a scrape immediately without waiting for the
+daily cron.
 
 ---
 
@@ -111,8 +115,8 @@ Go to **Actions → Scrape & Update Schedule → Run workflow** to trigger a scr
 Edit `src/scraper.js` and change these values at the top:
 
 ```js
-const TEAM_ID    = '011MIC3SQK000000VTVG0001VTR8C1K7'; // ← fussball.de team ID
-const TEAM_NAME  = 'FC Hertha 03 IV';
+const TEAM_ID = '011MIC3SQK000000VTVG0001VTR8C1K7'; // ← fussball.de team ID
+const TEAM_NAME = 'FC Hertha 03 IV';
 const HOME_VENUE = 'Ernst-Reuter-Sportfeld KR6, Onkel-Tom-Str. 40, 14169 Berlin';
 ```
 

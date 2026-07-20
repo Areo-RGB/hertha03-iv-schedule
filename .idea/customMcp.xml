@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CustomMcpSettings">
+    <option name="servers">
+      <list>
+        <CustomMcpServerConfig>
+          <option name="defaultEnabled" value="false" />
+          <option name="enabled" value="false" />
+          <option name="id" value="76a4fc7e-bde3-4124-ba67-a81a6d533e20" />
+          <option name="name" value="mcp-code-intel" />
+          <option name="url" value="http://127.0.0.1:17532/mcp" />
+        </CustomMcpServerConfig>
+        <CustomMcpServerConfig>
+          <option name="defaultEnabled" value="false" />
+          <option name="enabled" value="false" />
+          <option name="id" value="b8df3ac4-03fb-4015-a3c2-91d60498ac6c" />
+          <option name="name" value="index-mcp" />
+          <option name="url" value="http://127.0.0.1:29174/index-mcp/streamable-http" />
+        </CustomMcpServerConfig>
+      </list>
+    </option>
+  </component>
+</project>
