@@ -1,7 +1,7 @@
 {
   "team": "FC Hertha 03 IV",
   "team_id": "011MIC3SQK000000VTVG0001VTR8C1K7",
-  "generated": "2026-07-22T08:39:49.013Z",
+  "generated": "2026-07-23T08:41:27.886Z",
   "total": 19,
   "past": 9,
   "upcoming": 10,
@@ -161,9 +161,9 @@
     },
     {
       "date": "06.09.2026",
-      "time": "10:00",
-      "kickoff_iso": "2026-09-06T10:00:00.000Z",
-      "end_iso": "2026-09-06T11:30:00.000Z",
+      "time": "12:45",
+      "kickoff_iso": "2026-09-06T12:45:00.000Z",
+      "end_iso": "2026-09-06T14:15:00.000Z",
       "home_team": "Friedenauer TSC IV",
       "away_team": "FC Hertha 03 IV",
       "opponent": "Friedenauer TSC IV",
